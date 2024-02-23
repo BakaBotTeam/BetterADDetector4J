@@ -1,2 +1,3 @@
 # BetterADDetector4J
-[NLP4J](https://github.com/oyahiroki/nlp4j)
+[LL4J](https://github.com/LL4J/LL4J)</br>
+[ADDetector4J](https://github.com/siuank/ADDetector4J)
