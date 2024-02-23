@@ -32,7 +32,7 @@ public class Tune_5 {
         while (sc.hasNextLine()) {
             i++;
             DataSet trainSplit = new DataSet();
-            trainSplit.split.add(tokenizer.tokenize(0, sc.nextLine()));
+            trainSplit.split.add(tokenizer.tokenize(1, sc.nextLine()));
             model.trainOn(trainSplit);
             if (i % 1000 == 0) {
                 int t = i / 1000;
